@@ -36,7 +36,8 @@
  */
 
 #include "../../inc/MarlinConfigPre.h"
-
+#define STRING_SPLASH_LINE1 "" // will be shown during bootup in line 1
+#define STRING_SPLASH_LINE2 ""
 #if HAS_GRAPHICAL_LCD
 
 #include "ultralcd_DOGM.h"
